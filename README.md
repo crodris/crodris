@@ -8,7 +8,7 @@ Full Stack Software Engineer, based in Irvine, California.
 
 A baby tracker my wife and I use every day. Feeds, sleep, diapers, growth and photos, shared between both parents in real time, with an assistant that answers from your own logs only if you switch that on. Installable on the web, with a React Native app alongside it. ([writeup](https://clykr.io/work/storkie))
 
-[![Logging an activity in Storkie, with the day's timeline behind it](https://clykr.io/media/storkie-loop.gif)](https://storkie.app)
+[![A tour of the redesigned Storkie: Home, logging a feed and a nap, Insights, a chat, and photos](https://clykr.io/media/storkie-loop.gif?v=2)](https://storkie.app)
 
 ### A birthday site for my son
 

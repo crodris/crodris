@@ -20,13 +20,13 @@ A password gated party site built as a space mission: launch codes at the door, 
 
 Keeps track of what every coding agent is doing across a pile of git worktrees. It reads transcripts and git instead of asking you to maintain any state of your own, distills each worktree to a line, and serves the same data three ways: a board, a TUI, and an MCP server agents can query. No daemon, no API key required. ([writeup](https://clykr.io/work/ctx))
 
-[![The ctx TUI: a board of worktrees with branch, session status, last activity and a one line task, and below it the expanded recap for the selected worktree](https://clykr.io/media/ctx.jpg)](https://github.com/crodris/ctx)
+[![The ctx TUI: a board of worktrees with branch, session status, last activity and a one line task, and below it the expanded recap for the selected worktree](https://clykr.io/media/ctx.jpg?v=2)](https://github.com/crodris/ctx)
 
 ### Overlap
 
-Compares which files each active branch is touching and raises a flag when two of them start colliding, early, while the divergence is still cheap to fix. A web app, an API and a polling worker over Postgres. Not deployed at the moment. ([writeup](https://clykr.io/work/overlap))
+Compares which files each active branch is touching and raises a flag when two of them start colliding, early, while the divergence is still cheap to fix. It started as a web app, an API, and a worker that never stopped running. It's one app now, with durable workflows that wake up on a webhook in place of the worker, and it runs on Postgres. It isn't deployed at the moment. ([writeup](https://clykr.io/work/overlap))
 
-[![Overlap](https://clykr.io/media/overlap.jpg)](https://clykr.io/work/overlap)
+[![Overlap](https://clykr.io/media/overlap.jpg?v=2)](https://clykr.io/work/overlap)
 
 ### [clykr.io](https://clykr.io)
 
